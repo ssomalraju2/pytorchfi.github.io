@@ -6,24 +6,29 @@ nav_order: 2
 
 # Setting Up PyTorchFI
 
-## Installing Requirements for PyTorchFI
+## Requirements for PyTorchFI
 
-### Python
+- Python 3
+- PyTorch 1.0
 
-Python3
+## Installing PyTorchFI
 
-### PyTorch
+### Via Pip
 
-PyTorch 1.0
+Install using `pip install pytorchfi` Then in your project source files:
 
-## Download and Install PyTorchFI
+```python
+import pytorchfi
+```
 
-Download the source code [here](https://github.com/n3a9/PyTorchFI-Beta), and add the directory into the root of your project.
+### From Source
+
+Download the source code [here](https://github.com/pytorchfi/pytorchfi), and add the directory into the root of your project.
 
 At the top of any file you wish to use PyTorchFI in, add
 
 ```python
-from src import PyTorchFI_Source_Util as pytorchfi
+from src import PyTorchFI_Util as pytorchfi
 ```
 
 You will then be able to call the available functions from `pytorchfi`.

@@ -12,7 +12,7 @@ PyTorchFI is a runtime injection tool for [PyTorch](https://pytorch.org/), an op
 
 ## Getting started
 
-This documentation serves as an outline and tutorial on how to get started with using PyTorchFI and the different functionality that it offers. First check out [setup](https://n3a9.github.io/pytorchfi-docs-beta/docs/setup/) to see how to integrate PyTorchFI to your project.
+This documentation serves as an outline and tutorial on how to get started with using PyTorchFI and the different functionality that it offers. First check out [setup](https://pytorchfi.github.io/docs/docs/setup/) to see how to integrate PyTorchFI to your project.
 
 ## About the project
 

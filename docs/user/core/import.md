@@ -8,10 +8,16 @@ nav_order: 1
 
 # Importing PyTorchFI.Core
 
-To import PyTorchFI.Core, download the `src` directory and at the top of the file include
+## Via Pip
 
 ```python
-from src import PyTorchFI_Source_Core
+from pytorchfi import PyTorchFI_Core
 ```
 
-You will then be able to call different functions from `PyTorchFI_Source_Core`.
+## From Source
+
+```python
+from src import PyTorchFI_Core
+```
+
+You will then be able to call different functions from `PyTorchFI_Core`.
