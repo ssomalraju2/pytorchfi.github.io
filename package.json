@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "0.1.0b",
+  "description": "PyTorchFI Docs",
+  "repository": "pytorchfi/docs",
+  "license": "NCSA",
+  "devDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-primer": "^3.0.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "stylelint '**/*.scss'"
+  }
+}

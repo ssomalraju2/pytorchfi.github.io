@@ -1,0 +1,33 @@
+title: PyTorchFI Docs
+description: PyTorchFI documentation
+baseurl: "/docs"
+url: "https://pytorchfi.github.io"
+
+permalink: pretty
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+  ]
+
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "PyTorchFI on GitHub":
+    - "//github.com/pytorchfi/pytorchfi/"
+
+color_scheme: nil
+
+ga_tracking:
