@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.1.6b",
+  "version": "0.1.7b",
   "description": "PyTorchFI Docs",
   "repository": "pytorchfi/docs",
   "license": "NCSA",
