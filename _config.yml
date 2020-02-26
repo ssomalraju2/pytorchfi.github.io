@@ -1,6 +1,6 @@
 title: PyTorchFI Docs
 description: PyTorchFI documentation
-baseurl: "/docs"
+baseurl: "/"
 url: "https://pytorchfi.github.io"
 
 permalink: pretty
@@ -26,7 +26,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "PyTorchFI on GitHub":
-    - "//github.com/pytorchfi/pytorchfi/"
+    - "//github.com/pytorchfi/"
 
 color_scheme: nil
 
