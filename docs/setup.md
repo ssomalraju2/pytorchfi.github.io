@@ -2,6 +2,7 @@
 layout: default
 title: Setup
 nav_order: 2
+permalink: /setup
 ---
 
 # Setting Up PyTorchFI

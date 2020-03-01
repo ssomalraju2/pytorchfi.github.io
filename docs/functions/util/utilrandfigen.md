@@ -2,8 +2,9 @@
 layout: default
 title: util.random_batch_fi_gen
 parent: PyTorchFI.Util Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 6
+permalink: /functions/util/random_batch_fi_gen
 ---
 
 # random_batch_fi_gen(conv_number, fmap_number, H_size, W_size, min_value, max_value)

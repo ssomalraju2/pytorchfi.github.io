@@ -4,6 +4,7 @@ title: Declaring A Fault Injector
 parent: PyTorchFI.Util
 grand_parent: Using PyTorchFI
 nav_order: 3
+permalink: /util/declare-fi
 ---
 
 # Declaring a Fault Injector with PyTorchFI.Util

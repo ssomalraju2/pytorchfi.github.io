@@ -2,8 +2,9 @@
 layout: default
 title: util.time_model
 parent: PyTorchFI.Util Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 5
+permalink: /functions/util/time_model
 ---
 
 # time_model()

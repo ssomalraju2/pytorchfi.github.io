@@ -3,7 +3,7 @@ layout: default
 title: Using PyTorchFI
 nav_order: 3
 has_children: true
-permalink: /user
+permalink: /overview
 ---
 
 Stable

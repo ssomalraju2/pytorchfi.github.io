@@ -4,6 +4,7 @@ title: Example Core Client
 parent: PyTorchFI.Core
 grand_parent: Using PyTorchFI
 nav_order: 4
+permalink: /core/example-client
 ---
 
 # PyTorchFI.Core Example Client

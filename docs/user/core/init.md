@@ -4,6 +4,7 @@ title: Initializing
 parent: PyTorchFI.Core
 grand_parent: Using PyTorchFI
 nav_order: 2
+permalink: /core/init
 ---
 
 # Initialize PyTorchFI.Core

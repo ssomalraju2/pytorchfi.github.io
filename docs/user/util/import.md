@@ -4,6 +4,7 @@ title: Importing
 parent: PyTorchFI.Util
 grand_parent: Using PyTorchFI
 nav_order: 1
+permalink: /util/import
 ---
 
 # Importing PyTorchFI.Util

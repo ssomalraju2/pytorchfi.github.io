@@ -4,6 +4,7 @@ title: Importing
 parent: PyTorchFI.Core
 grand_parent: Using PyTorchFI
 nav_order: 1
+permalink: /core/import
 ---
 
 # Importing PyTorchFI.Core

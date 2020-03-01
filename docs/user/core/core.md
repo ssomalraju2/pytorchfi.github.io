@@ -4,7 +4,7 @@ title: PyTorchFI.Core
 nav_order: 1
 has_children: true
 parent: Using PyTorchFI
-permalink: /user_core
+permalink: /core
 ---
 
 # PyTorchFI.Core

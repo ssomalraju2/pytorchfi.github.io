@@ -4,6 +4,7 @@ title: Utility Functions
 parent: PyTorchFI.Util
 grand_parent: Using PyTorchFI
 nav_order: 4
+permalink: /util/utility
 ---
 
 # Utility of PyTorchFI.Util

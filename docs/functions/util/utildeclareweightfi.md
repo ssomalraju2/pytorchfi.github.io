@@ -2,8 +2,9 @@
 layout: default
 title: util.declare_weight_fi
 parent: PyTorchFI.Util Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 3
+permalink: /functions/util/declare_weight_fi
 ---
 
 # declare_weight_fi(\*\*kwargs)

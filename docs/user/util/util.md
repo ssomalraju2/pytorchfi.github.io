@@ -4,7 +4,7 @@ title: PyTorchFI.Util
 nav_order: 2
 has_children: true
 parent: Using PyTorchFI
-permalink: /user_util
+permalink: /util
 ---
 
 # PyTorchFI.Util

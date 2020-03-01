@@ -2,8 +2,9 @@
 layout: default
 title: core.init
 parent: PyTorchFI.Core Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 1
+permalink: /functions/core/init
 ---
 
 # init(model, h, w, batch_size, \*\*kwargs)

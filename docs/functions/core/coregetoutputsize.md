@@ -2,8 +2,9 @@
 layout: default
 title: core.get_output_size
 parent: PyTorchFI.Core Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 6
+permalink: /functions/core/get_output_size
 ---
 
 # get_output_size()

@@ -11,8 +11,6 @@ exclude:
     "*.gem",
     "Gemfile",
     "Gemfile.lock",
-    "package.json",
-    "package-lock.json",
     "script/",
     "LICENSE.txt",
     "lib/",

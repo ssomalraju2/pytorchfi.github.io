@@ -2,8 +2,9 @@
 layout: default
 title: core.fi_reset
 parent: PyTorchFI.Core Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 4
+permalink: /functions/core/fi_reset
 ---
 
 # fi_reset()

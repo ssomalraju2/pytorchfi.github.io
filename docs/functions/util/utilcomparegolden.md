@@ -2,8 +2,9 @@
 layout: default
 title: util.compare_golden
 parent: PyTorchFI.Util Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 4
+permalink: /functions/util/compare_golden
 ---
 
 # def compare_golden()

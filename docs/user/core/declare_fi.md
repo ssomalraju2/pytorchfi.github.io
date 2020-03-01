@@ -4,6 +4,7 @@ title: Declaring A Fault Injector
 parent: PyTorchFI.Core
 grand_parent: Using PyTorchFI
 nav_order: 3
+permalink: /core/declare-fi
 ---
 
 # Declaring a Fault Injector with PyTorchFI.Core

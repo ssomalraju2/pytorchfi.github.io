@@ -1,9 +1,10 @@
 ---
 layout: default
-title: util.declare_neuron_fi
-parent: PyTorchFI.Util Functions
-grand_parent: Function List
+title: core.declare_neuron_fi
+parent: PyTorchFI.Core Functions
+grand_parent: Functions
 nav_order: 2
+permalink: /functions/core/declare_neuron_fi
 ---
 
 # declare_neuron_fi(\*\*kwargs)
@@ -28,4 +29,4 @@ If the function is called with no parameters, then a random injection is initial
 
 ## Return
 
-None.
+The model with the fault injector.

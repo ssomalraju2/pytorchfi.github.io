@@ -4,6 +4,7 @@ title: Example Util Client
 parent: PyTorchFI.Util
 grand_parent: Using PyTorchFI
 nav_order: 5
+permalink: /util/example-client
 ---
 
 # PyTorchFI.Util Example Client

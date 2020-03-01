@@ -2,8 +2,9 @@
 layout: default
 title: util.init
 parent: PyTorchFI.Util Functions
-grand_parent: Function List
+grand_parent: Functions
 nav_order: 1
+permalink: /functions/util/init
 ---
 
 # init(model, data, \*\*kwargs)

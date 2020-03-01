@@ -3,8 +3,8 @@ layout: default
 title: PyTorchFI.Util Functions
 nav_order: 5
 has_children: true
-parent: Function List
-permalink: /util_overview
+parent: Functions
+permalink: /functions/util
 ---
 
 # PyTorchFI.Util
