@@ -12,13 +12,11 @@ permalink: /core/import
 ## Via Pip
 
 ```python
-from pytorchfi import PyTorchFI_Core
+from pytorchfi.core import fault_injection
 ```
 
 ## From Source
 
 ```python
-from src import PyTorchFI_Core
+from pytorchfi.core import fault_injection
 ```
-
-You will then be able to call different functions from `PyTorchFI_Core`.

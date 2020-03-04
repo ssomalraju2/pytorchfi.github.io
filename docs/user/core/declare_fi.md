@@ -9,19 +9,65 @@ permalink: /core/declare-fi
 
 # Declaring a Fault Injector with PyTorchFI.Core
 
-There are many ways to declare a fault injection within PyTorchFI.
+A `fault_injector` class may be intaintated by passing the model desired for testing. 
 
-## Types of Injections
+```python
+import torch
+from pytorchfi import core
+torch.random.manual_seed(5)
+image = torch.rand((10, 3, 224, 224))
+h = 224
+w = 224
+batch_size = 1
+torch.no_grad()
+
+# load model
+model = models.resnet50(pretrained=True)
+# Instantiate fault injector class
+fi_model = core.fault_injection(model, h, w, batch_size)
+```
+
+## Injection Locations
 
 ### Neuron Injection
+This injection allows for dynamic insertion of values after the specified 
+layer. 
 
-Will include an injection within the neurons of the model.
+#### Single Injection
 
-#### Specific Injection
+```python
+kwargs = {'value': 310810, 'layer_num': 3, 'c': 1, 'batch': 0, 'layer_type':'ReLu'}
+fi_model.declare_neuron_fi(**kwargs)
+```
 
-If an injection at a specific location with a specific value is desired, then all parameters should be given. **PyTorchFI.Core does not save previous values from injections**, so if all parameters are not given, there will be an injection value error.
+#### Multi-Injection
 
-#### Random Injection
+```python
+kwargs = {'value': (310810,20910,-101), 'layer_num': (1,2,6), 'c': (1,1,(3,20,20)), 'batch': (0,0,12)}
+fi_model.declare_neuron_fi(**kwargs)
+```
+
+### Weight Injection
+This injection allows for inertion of persistent modifications to the designated weights. 
+
+```python
+kwargs = {'value': 310810, 'layer_num': 3, 'index': 1, 'batch': 0, 'layer_type':'ReLu'}
+fi_model.declare_weight_fi(**kwargs)
+```
+
+
+## Injection Utilities
+
+### Random Injection
+
+Injection utils that allow for inserting random injections
+```python
+from pytorchfi import util
+fi.model.util.random_weight_inj(self, min_val=-1, max_val=1):
+```
+Samples a value from the uniform distribution between `min_val` and `max_val` and injects this value
+into the weights of a randomly selected layer. 
+
 
 If a random injection **in every batch** is desired, then the only parameters that can be given to the function is `value`, `min_value`, and `max_value`.
 
@@ -36,16 +82,6 @@ def set_zero(self, input, output):
 
 which will zero every output tensor.
 
-#### Number of Injections
-
-- A single injection can be declared by passing a single value in for each of the parameters.
-- Multiple injections can be declared by passing a list of values for each of the parameters. Note that each list must be the same size. The fault injection will be declared using the corresponding values by index.
-
-#### Usage
-
-```python
-def declare_neuron_fi(**kwargs):
-```
 
 #### Parameters
 
@@ -84,11 +120,11 @@ Will include an injection within the weights of the model.
 #### Usage
 
 ```python
-model = pytorchfi.declare_weight_fi(0, -1e-3, 1e-3)
+model = core.declare_weight_fi(0, -1e-3, 1e-3)
 ```
 
 ## Model Returned
 
-The model returned **is a copy** of the original model PyTorchFI.Core was initialized with. This implementation was specifically chosen such that a variety of fault injections could be declared with only a single initialization.
+The model returned **is a copy** of the original model PyTorchFI.Core Fault Injection was initialized with. This implementation was specifically chosen such that a variety of fault injections could be declared with only a single initialization.
 
 The model injection values are also verified to be valid, so that there will be no errors when running the model on data.

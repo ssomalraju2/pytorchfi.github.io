@@ -14,4 +14,4 @@ New release
 
 # Using PyTorchFI
 
-PyTorchFI is a clean, robust, and versatile tool that offers an easy way to implement fault injections within any PyTorchFI application. Learn about the many features it offers and how you can seamlessly integrate them into your application.
+PyTorchFI is a clean, robust, and versatile tool that offers an easy way to implement fault injections within any PyTorch application. Learn about the many features it offers and how you can seamlessly integrate them into your application.

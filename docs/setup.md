@@ -9,8 +9,8 @@ permalink: /setup
 
 ## Requirements for PyTorchFI
 
-- Python 3
-- PyTorch 1.0
+- Python >=3
+- PyTorch >=1.0
 
 ## Installing PyTorchFI
 
@@ -29,7 +29,7 @@ Download the source code [here](https://github.com/pytorchfi/pytorchfi), and add
 At the top of any file you wish to use PyTorchFI in, add
 
 ```python
-from src import PyTorchFI_Util as pytorchfi
+import pytorchfi
 ```
 
 You will then be able to call the available functions from `pytorchfi`.
