@@ -1,8 +1,8 @@
-# pytorchfi-docs-beta
+# pytorchfi.github.io
 
-The documentation website for PyTorchFI.
+The documentation website for PyTorchFI. View at [pytorchfi.github.io](https://pytorchfi.github.io)
 
-## Running locally
+## Running Locally
 
 Within the project directory:
 
